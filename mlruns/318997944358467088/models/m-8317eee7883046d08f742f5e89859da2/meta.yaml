@@ -1,0 +1,10 @@
+artifact_location: file:///E:/used-car-price-prediction1/mlruns/318997944358467088/models/m-8317eee7883046d08f742f5e89859da2/artifacts
+creation_timestamp: 1752978872640
+experiment_id: '318997944358467088'
+last_updated_timestamp: 1752978883707
+model_id: m-8317eee7883046d08f742f5e89859da2
+model_type: null
+name: linear_regression_model
+source_run_id: e4ca083474dd4d11aee3fff8554e2229
+status: 2
+status_message: null

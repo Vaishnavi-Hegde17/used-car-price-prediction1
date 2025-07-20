@@ -1,0 +1,10 @@
+artifact_location: file:///E:/used-car-price-prediction1/mlruns/318997944358467088/models/m-0d15c9775f8940b8852ef5979d224788/artifacts
+creation_timestamp: 1752978885515
+experiment_id: '318997944358467088'
+last_updated_timestamp: 1752978895180
+model_id: m-0d15c9775f8940b8852ef5979d224788
+model_type: null
+name: random_forest_model
+source_run_id: 4c6a47833bfe4b2d9e98330d48409044
+status: 2
+status_message: null
