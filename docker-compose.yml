@@ -18,6 +18,8 @@ services:
       - "9090:9090"
     networks:
       - monitoring
+    depends_on:
+      - fastapi
 
   grafana:
     image: grafana/grafana
