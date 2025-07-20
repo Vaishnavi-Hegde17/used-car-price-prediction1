@@ -1,0 +1,38 @@
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+    - data/cardata.csv
+    - src/preprocess.py
+    params:
+    - train.random_state
+    - train.test_size
+    outs:
+    - data/processed/X_test.csv
+    - data/processed/X_train.csv
+    - data/processed/y_test.csv
+    - data/processed/y_train.csv
+  train:
+    cmd: python src/train.py
+    deps:
+    - data/processed/X_test.csv
+    - data/processed/X_train.csv
+    - data/processed/y_test.csv
+    - data/processed/y_train.csv
+    - src/train.py
+    params:
+    - train.knn_n_neighbors
+    - train.rf_max_depth
+    - train.rf_n_estimators
+    outs:
+    - models
+    - saved_plots
+  evaluate:
+    cmd: python src/evaluate.py
+    deps:
+    - data/processed/X_test.csv
+    - data/processed/y_test.csv
+    - models
+    - src/evaluate.py
+    outs:
+    - evaluation_metrics.json
