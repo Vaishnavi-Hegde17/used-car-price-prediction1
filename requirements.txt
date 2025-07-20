@@ -6,3 +6,4 @@ joblib
 numpy
 pandas
 prometheus-fastapi-instrumentator
+python-multipart
