@@ -36,7 +36,10 @@ GitHub hosts the repository, enabling collaboration and CI/CD integration.
 - These versions are reproducible and linked to Git commits.
 
  Screenshot:
-![DVC Tracking](images/dvc%20pipeline.png)
+![DVC Tracking](images/dvc%20init.png)
+
+![DVC Add](images/dvc%20add.png)
+
 
 ---
 
@@ -63,6 +66,10 @@ GitHub hosts the repository, enabling collaboration and CI/CD integration.
 
  Screenshot:
 ![MLflow](images/mlflow.png)
+
+![MLflow Plots](images/randomforest.png)
+
+![MLflow](images/linearregression.png)
 
 ---
 
