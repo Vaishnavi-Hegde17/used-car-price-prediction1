@@ -50,11 +50,6 @@ GitHub hosts the repository, enabling collaboration and CI/CD integration.
 - `evaluate.py`: Evaluates model performance using metrics like RMSE, R²  
 - DVC is used to chain and track these steps via `dvc.yaml`.
 
- Screenshot:
-![DVC DAG and Pipeline](images/dvc%20pipeline.png)
-
----
-
 ### 🔹 4. MLflow Tracking
 
 - MLflow logs:
