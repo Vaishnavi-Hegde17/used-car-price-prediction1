@@ -124,7 +124,7 @@ Screenshot (Grafana):
   - API tokens
 
 Screenshot:
-![Trivy Security Scan](images/Trivy%20scan.png)
+![Trivy Security Scan](images/trivy%20scan.png)
 
 ![Trivy Security Scan](images/Trivy%20report.png)
 
